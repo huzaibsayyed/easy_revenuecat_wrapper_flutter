@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 /// Replace these with the values from your RevenueCat dashboard before
 /// running this example against a real project.
-const _revenueCatApiKey = 'test_AmRsfYDoRlNIgsxUkQhmDlKEnBP';
-const _entitlementId = 'Remove_Ads_1M_1Y_Subscriptions';
+const _revenueCatApiKey = 'your_revenuecat_api_key';
+const _entitlementId = 'premium';
 const _offeringId = 'default';
 
 Future<void> main() async {
