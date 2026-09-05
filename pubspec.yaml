@@ -1,6 +1,6 @@
 name: easy_revenuecat_wrapper_flutter
 description: A simple and flexible Flutter package to integrate RevenueCat with minimal setup.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/huzaibsayyed/easy_revenuecat_wrapper_flutter
 repository: https://github.com/huzaibsayyed/easy_revenuecat_wrapper_flutter
 issue_tracker: https://github.com/huzaibsayyed/easy_revenuecat_wrapper_flutter/issues
@@ -19,8 +19,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  purchases_flutter: ^10.9.0
-  purchases_ui_flutter: ^10.9.0
+  purchases_flutter: ^10.11.0
+  purchases_ui_flutter: ^10.11.0
   shared_preferences: ^2.5.5
   logging: ^1.3.0
 

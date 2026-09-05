@@ -74,7 +74,9 @@ class _RevenueCatSubscriptionButtonState extends State<RevenueCatSubscriptionBut
 
   @override
   Widget build(BuildContext context) {
-    if (!RevenueCatService.instance.isInitialized) return const SizedBox.shrink();
+    if (!RevenueCatService.instance.isInitialized) {
+      return const SizedBox.shrink();
+    }
 
     return AnimatedBuilder(
       animation: RevenueCatService.instance,

@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * `RevenueCatSubscriptionButton` now renders nothing until `RevenueCatService.init` has been called, instead of surfacing a generic error on tap.
+
+## 0.0.4
+
+* Reveneucat Package Updated: purchases_flutter: ^10.11.0, purchases_ui_flutter: ^10.11.0
